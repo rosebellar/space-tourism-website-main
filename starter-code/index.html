@@ -1,27 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Space tourism website</title>
+  </head>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Space tourism website</title>
-</head>
-<body>
-
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
-
-  So, you want to travel to
-  Space
-  Let’s face it; if you want to go to space, you might as well genuinely go to 
-  outer space and not hover kind of on the edge of it. Well sit back, and relax 
-  because we’ll give you a truly out of this world experience!
-
-  Explore
-
-</body>
+  <body>
+    <div class="wrapper">
+      <header id="header">
+        <div class="logo">
+          <img src="../starter-code/assets/shared/logo.svg" alt="" />
+        </div>
+        <p class="thin-line"></p>
+        <nav>
+          <ul>
+            <li><span class="link-number"> 00</span>HOME</li>
+            <li><span class="link-number"> 01 </span>DESTINATION</li>
+            <li><span class="link-number"> 02</span>CREW</li>
+            <li><span class="link-number"> 03</span>TECHNOLOGY</li>
+          </ul>
+        </nav>
+      </header>
+      <section id="hero-section">
+        <div class="hero-container">
+          <h3>
+            SO, YOU WANT TO TRAVEL TO <span class="big-text"><br />SPACE</span>
+          </h3>
+        </div>
+        <div class="text">
+          <p class="hero-text">
+            Let’s face it; if you want to go to space, you might as well
+            genuinely go to outer space and not hover kind of on the edge of it.
+            Well sit back, and relax because we’ll give you a truly out of this
+            world experience!
+          </p>
+        </div>
+        <p class="circle"><span class="circle-text">EXPLORE!</span></p>
+      </section>
+    </div>
+  </body>
 </html>
